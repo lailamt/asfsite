@@ -1,0 +1,241 @@
+/* COLORS:
+          light blue: #019bd1   rgba(1, 155, 209, .5)
+          dark blue:  #003f62   rgba(0, 63, 98, .5)
+          yellow:     #ffe102   rgba(255, 225, 2, .5)
+          green:      #05411f   rgba(5, 65, 71, .5)
+          */
+
+*{margin: 0; padding: 0}
+
+body{
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: ;
+  background: #f7f7f7;
+}
+
+.content{
+  width: 994px;
+  margin: 0 auto;
+}
+
+#logo{
+  font-family: 'Encode Sans Condensed';
+  font-size: 36px;
+  font-weight: bold;
+  color: #019bd1;
+  padding: 23px 0 0 0;
+}
+#logo span{
+  color: #003f62;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background: ;
+}
+
+#menu{
+  float: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 25px 10px;
+  color: #333;
+}
+
+#menu ul li:hover{
+  color: #333;
+  background: rgba(255, 225, 2, .5);
+}
+
+.content .fab{
+  font-size: 24px;
+  text-decoration: none;
+  color: #3b5998;
+}
+
+#banner{
+  width: 100%;
+  height: 550px;
+  background: #000;
+  align: center;
+}
+
+#banner img{
+  width: 100%;
+}
+
+
+/* INÍCIO RODAPÉ */
+.copyright{
+  float: right;
+}
+
+.dados{
+  font-size: 14px;
+}
+
+.dados .fas{
+  color: #fff;
+  margin: 0 5px 0 0;
+}
+
+.dados span{
+  padding: 19px;
+}
+
+footer{
+  width: 100%;
+  padding: 20px 0;
+  color: #fff;
+  background: #003f62;
+}
+/* FIM DO RODAPÉ */
+
+/* INÍCIO DE CONTATO */
+#contato{
+  padding: 60px 0 60px 0;
+}
+
+#contato h1{
+  color: #003f62;
+}
+
+/* início do formulário */
+form{
+  margin: 20px 0 60px 0;
+}
+
+.ctt{
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Encode Sans Condensed';
+  border-radius: 4px;
+  margin: 5px 0 15px 0;
+  border: 0;
+}
+
+.ctttxt{
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Encode Sans Condensed';
+  border-radius: 4px;
+  margin: 0 0 5px 0;
+  border: 0;
+}
+
+#bt{
+  width: 320px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  background: #003f62;
+}
+
+#bt:hover{
+  background: #019bd1;
+  cursor: pointer;
+}
+/* fim do formulário */
+/* FIM DE CONTATO */
+
+/* INÍCIO DE SOBRE */
+#sobre{
+  padding: 60px 0 60px 0;
+  font-size: 18px;
+}
+
+#sobre h1{
+  color: #003f62;
+}
+/* FIM DE SOBRE */
+
+/* INÍCIO DE PROGRAMAS */
+#programas{
+  padding: 60px 0 60px 0;
+  font-size: 18px;
+}
+
+#programas h1{
+  color: #003f62;
+}
+/* FIM DE PROGRAMAS */
+
+/* INÍCIO DE MIDIA */
+#midia{
+  padding: 60px 0 60px 0;
+  font-size: 18px;
+}
+
+#midia h1{
+  color: #003f62;
+}
+/* FIM DE MIDIA */
+
+.progallery {
+  text-align: center;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.progallery img {
+  margin: 10px;
+  max-width: 100%;
+  vertical-align: top;
+  border: 0px none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s;
+  -webkit-transition: box-shadow 0.2s;
+  background: #ffffff;
+}
+
+.progallery img:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.progallery a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: 'Encode Sans Condensed';
+}
+
+#videogallery {
+  text-align: center;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+#videogallery img {
+  margin: 5px;
+  max-width: 100%;
+  vertical-align: top;
+  border: 0px none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s;
+  -webkit-transition: box-shadow 0.2s;
+  background: #ffffff;
+  width: 300px;
+  height: 210px;
+}
+
+#videogallery img:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+#videogallery a {
+  display: inline-block;
+  text-decoration: none;
+}

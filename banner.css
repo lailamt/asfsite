@@ -1,0 +1,26 @@
+#slider	{
+  position:relative;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  width: 100%;
+  height:550px;
+  overflow:hidden;
+}
+#slider li {
+  width: 100%;
+  height: 550px;
+  position:absolute;
+}
+#slider p {
+  text-align: center;
+  font-size: 18px;
+  position:absolute;
+  bottom:0;
+  padding:15px;
+  color:#ffffff;
+  background: rgba(0,0,0, .7);
+  margin:0;
+  left:0;
+  right:0;
+}
